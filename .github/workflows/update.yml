@@ -1,0 +1,39 @@
+name: update-feed
+
+on:
+  schedule:
+    # 每小时第 7 分钟抓一次（GitHub 定时任务在高峰期可能延迟几分钟到十几分钟，属正常）
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 抓取资讯源
+        run: python3 scripts/fetch.py
+
+      - name: 提交数据文件
+        run: |
+          git config user.name "ainews-bot"
+          git config user.email "ainews-bot@users.noreply.github.com"
+          git add data/ainews.json
+          if git diff --staged --quiet; then
+            echo "这一轮没有新文章，不提交"
+          else
+            git commit -m "chore: update feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
