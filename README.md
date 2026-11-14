@@ -3,9 +3,10 @@
 一个纯静态的 AI 资讯工作台：收录、追踪、复盘、板块速览。
 静态托管在 GitHub Pages，数据由 GitHub Actions 每小时抓取，**不依赖任何外部服务或后端**。
 
-- 站点：`https://<你的用户名>.github.io/ai-news-workbench/`
+- 站点：`https://abmerw.github.io/ai-news-workbench/`
 - 数据：`data/ainews.json`
 - 抓取：`scripts/fetch.py`（只用 Python 标准库）
+- 手机：浏览器打开站点 → 分享 → 添加到主屏幕，即可全屏使用（PWA）
 
 ## 首次上线（2 步）
 
@@ -30,11 +31,13 @@ GitHub Actions 的 `GITHUB_TOKEN` 由仓库自动提供，与推送用的令牌�
 ## 结构
 
 ```
-index.html                 单文件工作台（零外链、零 CDN）
+index.html                 单文件工作台（零外链、零 CDN，内联 PWA manifest 与图标）
+sw.js                      网络优先 service worker（在线拿最新，离线用缓存）
 data/ainews.json           页面读取的数据文件（Actions 每小时更新）
 scripts/fetch.py           抓取 RSS → 生成 JSON
 scripts/finish_setup.py    一键上线（推送 + 开 Pages + 触发抓取）
 .github/workflows/update.yml  每小时定时任务
+.nojekyll                  Pages 必需
 ```
 
 ## 数据怎么来
@@ -67,6 +70,25 @@ python3 scripts/fetch.py --dry-run  # 只看会抓到什么，不写文件
 不会写回仓库，也不会跨设备同步。换设备或清缓存前，请用页面上的「导出 JSON」备份，换设备后「导入恢复」。
 
 页面上的「新增资讯」只加在本机，不会进 `data/ainews.json`；想长期保留请导出备份。
+
+## 手机使用（添加到主屏幕）
+
+**推荐入口**：`https://abmerw.github.io/ai-news-workbench/`
+
+1. 用手机浏览器（iPhone 用 Safari，Android 用 Chrome）打开上面的地址。
+2. iPhone：点底部分享按钮 → 「添加到主屏幕」；Android：右上角菜单 → 「添加到主屏幕 / 安装应用」。
+3. 桌面出现「AI 讯息台」图标，打开即全屏、无地址栏。
+
+`index.html` 内联了 PWA manifest 与图标（零外链）；`sw.js` 用网络优先策略，
+联网时永远加载最新版本，断网时用上次缓存。每小时的新资讯由 GitHub Actions 写入
+`data/ainews.json`，打开页面会自动拉取合并。
+
+### 旧入口说明
+
+之前添加到桌面的图标指向 `https://aeb88c6f4936e1e21.app.workbuddy.host/...`（WorkBuddy 托管）。
+该站点已更新为同一份页面，并把数据源直接指向 GitHub Pages 的数据文件（该文件允许跨域读取），
+所以旧图标打开也是最新内容、也能持续自动更新；页面底部会提示一次迁移到新地址。
+但托管仍在旧平台，长期建议删掉旧图标，用新地址重新添加一次。
 
 ## 换域名 / 迁移
 
