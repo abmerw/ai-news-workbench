@@ -718,7 +718,18 @@ function parseFeedText(txt){
   }
   return data;
 }
+var _retryN=0, _retryTimer=null;
+function scheduleSyncRetry(){
+  if(_retryTimer || _retryN>=2) return;
+  _retryN++;
+  _retryTimer=setTimeout(function(){ _retryTimer=null; if(state.syncStatus==='local') syncFromFeed(false); },30000);
+}
 function syncFromFeed(manual){
+  if(location.protocol==='file:'){
+    setSync('local','本地文件模式：'+state.items.length+' 条资讯已内置在页面里，可完整阅读；自动更新要靠网址打开，双击本地文件时不会联网。');
+    if(manual) toast('本地文件不会自动更新，但内置内容不受影响');
+    return;
+  }
   var u=dataUrl();
   if(!/^(https?:\x2f\x2f|\.?\/)/i.test(u)){ setSync('error','地址需以 http(s):// 或 ./ 开头'); if(manual) toast('数据源地址格式不正确'); return; }
   setSync('checking','正在连接数据源…');
@@ -735,6 +746,7 @@ function syncFromFeed(manual){
       var n=mergeFeedList(normalize(list));
       var batch=(typeof data==='object'&&!Array.isArray(data)&&(data.batch||data.updated))?String(data.batch||data.updated).slice(0,16):('本地 '+new Date().toTimeString().slice(0,5));
       state.cloudUpdated=batch; state.lastSync=new Date().toISOString(); saveState();
+      _retryN=0;
       setSync('ok','数据源已同步 · '+batch);
       refreshAll();
       toast(n?('同步完成：新增 '+n+' 条 · 批次 '+batch):('已是最新 · 批次 '+batch+'，无新增'));
@@ -742,8 +754,16 @@ function syncFromFeed(manual){
     .catch(function(err){
       clearTimeout(timer);
       var msg=(err&&err.name==='AbortError')?'连接超时':((err&&err.message)?err.message:'连接失败');
-      setSync('error','同步失败：'+msg+'（请确认地址可匿名跨域读取）');
-      if(manual) toast('同步失败：'+msg);
+      var cu=state.cloudUpdated||state.seedBatch||'内置批次';
+      if(state.items && state.items.length){
+        /* 数据已内联在页面里：更新连不上只影响「新内容」，不影响阅读，降级为中性提示 */
+        setSync('local','自动更新暂时连不上（'+msg+'）。页面内置的 '+state.items.length+' 条资讯（批次 '+cu+'）完整可读，不影响查阅；请通过站点网址打开以获得每小时自动更新，联网后会自动重试。');
+        if(manual) toast('暂时连不上自动更新，内置内容不受影响');
+        scheduleSyncRetry();
+      } else {
+        setSync('error','同步失败：'+msg+'（请确认地址可匿名跨域读取）');
+        if(manual) toast('同步失败：'+msg);
+      }
     });
 }
 /* 内置模式：可靠重载顶层发布链接，回来后对比批次给出明确结果 */
@@ -1033,6 +1053,11 @@ function renderSync(){
   var st=state.syncStatus||'idle', msg=state.syncMsg||'';
   if(st==='checking'){ b.classList.add('syncing'); t.textContent='同步中…'; }
   else if(st==='error'){ b.classList.add('err'); t.textContent='同步失败 · 点此重试'; }
+  else if(st==='local'){
+    b.classList.add('off');
+    t.textContent='内置数据可用 · '+(cu&&cu!=='—'?cu.slice(5):'内置批次');
+    if(ch) ch.textContent='自动更新暂未连上 · 内容完整可读';
+  }
   else t.textContent='数据已更新 · '+cu.slice(5);
   var nx2=nextBatchLabel();
   d.textContent = msg || ('数据批次：'+cu+'（GitHub Actions 每小时抓取一次'+(nx2?('，下次约 '+nx2):'')+'）。'
@@ -1544,7 +1569,7 @@ var TIPS = {
     settings:{ t:'数据与同步', d:'备份恢复、数据源设置、安装到桌面、同步状态说明都在这一页。' }
   },
   act: {
-    refresh:     { t:'立即刷新', d:'重新拉取 data/ainews.json，新增条目自动合并，你的已读状态、备注和删除记录都不会丢。若提示没有新增，说明这一小时源站没有新文章，不是失败。' },
+    refresh:     { t:'立即刷新', d:'重新拉取 data/ainews.json，新增条目自动合并，你的已读状态、备注和删除记录都不会丢。若提示没有新增，说明这一小时源站没有新文章，不是失败。连不上数据文件时页面会显示内置的完整资讯，只是暂时不能自动更新，内容不会丢。' },
     toggletoday: { t:'收起 / 展开「今天要处理」', d:'折叠后只留标题和待处理数量，状态会被记住，下次打开保持你上次的选择。' },
     toggletools: { t:'数据管理', d:'展开备份与恢复：导出 JSON、导入恢复、导入简报、查看数据文件、清空示例。' },
     new:         { t:'新增资讯', d:'手动录入一条：标题必填，可填来源、分类、原文链接、发布日期、重要度（1-5）、阅读状态和要点。' },
@@ -1750,7 +1775,7 @@ document.getElementById('fStatus').addEventListener('change',function(){ ui.stat
 document.getElementById('fSort').addEventListener('change',function(){ ui.sort=this.value; renderLibrary(); });
 document.getElementById('importFile').addEventListener('change',function(){ if(this.files&&this.files.length) document.getElementById('importText').value=''; });
 window.addEventListener('beforeinstallprompt',function(e){ e.preventDefault(); window.__bip=e; });
-window.addEventListener('online',renderSync);
+window.addEventListener('online',function(){ renderSync(); if(state.syncStatus==='local'||state.syncStatus==='error') syncFromFeed(false); });
 window.addEventListener('offline',renderSync);
 
 /* ========== 初始化：加载数据 → 填充选项 → 绑定 → 统一刷新 ========== */
