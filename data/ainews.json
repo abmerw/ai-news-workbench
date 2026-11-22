@@ -1,8 +1,204 @@
 {
- "batch": "2026-11-22 07:04",
+ "batch": "2026-11-22 11:01",
  "count": 59,
  "source": "github-actions",
  "items": [
+  {
+   "title": "Edge AI Daily 早报（11月22日）",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8213684.html",
+   "category": "融资并购",
+   "pubDate": "2026-11-22",
+   "importance": 4,
+   "note": "英伟达同时面临治理追问、加州传票与SEC调查传闻，AI芯片估值经历重估；亚马逊拟以最高75亿美元收购Decart，AWS将LLM缓存推向集群。谷歌调整TPU出货并研究Agent记忆迁移，OpenAI把对抗性蒸馏防护推进API层。Anthropic黎曼猜想主张待验证，IPO定价为模型公司提供估值参照。Meta Muse用",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "英伟达同时面临治理追问、加州传票与SEC调查传闻，AI芯片估值经历重估；亚马逊拟以最高75亿美元收购Decart，AWS"
+    },
+    {
+     "h": "关键细节",
+     "t": "谷歌调整TPU出货并研究Agent记忆迁移，OpenAI把对抗性蒸馏防护推进API层。"
+    },
+    {
+     "h": "意味着什么",
+     "t": "Anthropic黎曼猜想主张待验证，IPO定价为模型公司提供估值参照。"
+    }
+   ],
+   "metric": "75亿"
+  },
+  {
+   "title": "Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/547.htm",
+   "category": "工具开源",
+   "pubDate": "2026-11-22",
+   "importance": 4,
+   "note": "IT之家 11 月 22 日消息，11 月 21 日，Lean 与 Mathlib 社区发布联合声明，称莱文特・阿尔波格（Levent Alpöge）以 Lean 库形式给出的黎曼猜想证明已经通过核验， 该证明的代码约 1700 万行 。（IT 之家注：Lean 是交互式定理证明器，可逐行机械核验数学推理是否符合逻辑公",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 22 日消息，11 月 21 日，Lean 与 Mathlib 社区发布联合声明，称莱文特・阿尔波格"
+    },
+    {
+     "h": "关键细节",
+     "t": "（IT 之家注：Lean 是交互式定理证明器，可逐行机械核验数学推理是否符合逻辑公"
+    }
+   ],
+   "metric": "1700 万"
+  },
+  {
+   "title": "试题经过大模型测试？国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/540.htm",
+   "category": "大模型",
+   "pubDate": "2026-11-22",
+   "importance": 4,
+   "note": "IT之家 11 月 22 日消息，11 月 21 日晚，国家中医药管理局中医师资格认证中心通过官方公众号发布声明称，该中心从未公开历年真题，未与任何大模型企业合作，亦未开展测评。 声明称，中心从未以任何形式向社会公开、发布或出售中医类别医师资格考试历年试题（含真题、原题）、参考答案及相关考试资料，亦未授权任何单位或个人",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 22 日消息，11 月 21 日晚，国家中医药管理局中医师资格认证中心通过官方公众号发布声明称，该中"
+    },
+    {
+     "h": "关键细节",
+     "t": "声明称，中心从未以任何形式向社会公开、发布或出售中医类别医师资格考试历年试题（含真题、原题）、参考答案及相关考试资料，亦"
+    }
+   ],
+   "metric": ""
+  },
+  {
+   "title": "可灵为何开始发力“图片”？",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8212803.html",
+   "category": "大模型",
+   "pubDate": "2026-11-22",
+   "importance": 3,
+   "note": "两家头部AI公司几乎前后脚更新图像模型。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "全球Meta一家独大，中国AI眼镜为何还在混战？",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8213674.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-22",
+   "importance": 3,
+   "note": "中国AI眼镜，胜负未分。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "特锐德、LG抢跑进场，AI抢电抢到气田门口，气电先端走69%份额，真正的账单还在后面",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8213639.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-22",
+   "importance": 3,
+   "note": "数据中心抢购稳定电力，重画美国气电定价与电网调峰；国内东数西算调峰账本同步重算，订单兑现待观察。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": "69%"
+  },
+  {
+   "title": "群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/524.htm",
+   "category": "大模型",
+   "pubDate": "2026-11-22",
+   "importance": 3,
+   "note": "IT之家 11 月 22 日消息，据科技媒体 Tom's Hardware 昨天报道，群联在 SC26 大会中展示两款企业级固态硬盘，专为 AI 场景设计。其中一款甚至带有 NPU 和 64GB 内存，可以直接运行 AI 模型。 IT之家从原报道获悉， 其中一款产品 SSD 内置 NPU（神经网络引擎） 、 64GB ",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 22 日消息，据科技媒体 Tom's Hardware 昨天报道，群联在 SC26 大会中展示两款企"
+    },
+    {
+     "h": "关键细节",
+     "t": "其中一款甚至带有 NPU 和 64GB 内存，可以直接运行 AI 模型。"
+    },
+    {
+     "h": "意味着什么",
+     "t": "IT之家从原报道获悉， 其中一款产品 SSD 内置 NPU（神经网络引擎） 、 64GB"
+    }
+   ],
+   "metric": ""
+  },
+  {
+   "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8213535.html",
+   "category": "融资并购",
+   "pubDate": "2026-11-21",
+   "importance": 4,
+   "note": "（11 月 16 日-21 日）英伟达史上首次单季营收突破1000亿美元，净利润同比翻倍；阿里巴巴：2027财年第二季度营收2715.2亿元，同比增长10%，AI相关产品收入超179亿元，连续13个季度实现三位数增长；腾讯：WorkBuddy近七天年化收入超5亿美元，三季度收入是第二季度的5倍以上；豆包工作日活突破80",
+   "kind": "case",
+   "scene": "办公提效",
+   "flow": [],
+   "metric": "1000亿"
+  },
+  {
+   "title": "OSTA 新特性放开：华为鸿蒙 HarmonyOS 7 系统更多机型小艺助理上线“小艺星芒”音色",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/519.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-21",
+   "importance": 4,
+   "note": "IT之家 11 月 22 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布 ，叠加国补后 4999 元起。华为星芒品牌总经理刘赫开通微博， 透露最受欢迎的 16G 版本已经在全平台售罄 。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 22 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 "
+    },
+    {
+     "h": "关键细节",
+     "t": "华为星芒品牌总经理刘赫开通微博， 透露最受欢迎的 16G 版本已经在全平台售罄 。"
+    },
+    {
+     "h": "意味着什么",
+     "t": "▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手"
+    }
+   ],
+   "metric": "4999 元"
+  },
+  {
+   "title": "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/517.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-21",
+   "importance": 4,
+   "note": "IT之家 11 月 22 日消息，开源端到端加密聊天应用 Signal 近日推出 iOS / Android 版更新，默认关闭应用程序内截图功能，以阻止 Siri AI 和 Gemini 等 AI 智能体读取用户私人消息。 Signal 总裁 Meredith Whittaker 表示，系统级 AI 智能体的影响力正不",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 22 日消息，开源端到端加密聊天应用 Signal 近日推出 iOS / Android 版更新，默"
+    },
+    {
+     "h": "关键细节",
+     "t": "Signal 总裁 Meredith Whittaker 表示，系统级 AI 智能体的影响力正不"
+    }
+   ],
+   "metric": ""
+  },
   {
    "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落",
    "source": "钛媒体",
@@ -216,6 +412,28 @@
     }
    ],
    "metric": ""
+  },
+  {
+   "title": "IT早报 1122：曝其他厂商也考虑推出阔直板形态手机；Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家；华为星芒 O1 Pro 定价 549",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/030/518.htm",
+   "category": "研究论文",
+   "pubDate": "2026-11-21",
+   "importance": 3,
+   "note": "“IT早报”时间，大家好，现在是 2026 年 11 月 22 日星期日，今天的重要科技资讯有： 1. 不只是华为，消息称其他厂商也考虑为旗舰产品线引入阔直板形态 博主 @数码闲聊站 21 日下午爆料称，当下手机市场“阔形态”升级势不可挡：除了华为，其他家也考虑在正代旗舰线加入阔形态，与常规直板机双线并行。>> 查看详",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "“IT早报”时间，大家好，现在是 2026 年 11 月 22 日星期日，今天的重要科技资讯有： 1."
+    },
+    {
+     "h": "关键细节",
+     "t": "不只是华为，消息称其他厂商也考虑为旗舰产品线引入阔直板形态 博主 @数码闲聊站 21 日下午爆料称，当下手机市场“阔形态"
+    }
+   ],
+   "metric": "5499 元"
   },
   {
    "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
@@ -618,220 +836,6 @@
    "metric": ""
   },
   {
-   "title": "达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/350.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-21",
-   "importance": 3,
-   "note": "IT之家 11 月 21 日消息，据《华尔街日报》今日报道，Anthropic CEO 达里奥 · 阿莫代伊（Dario Amodei）早在 2010 年就曾通过熟人结识埃隆 · 马斯克并受邀参观 SpaceX 办公室。 据称，马斯克当时还向他发出了工作邀请，但达里奥最终选择拒绝。他认为自己的专业能力更适合计算生物学，",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，据《华尔街日报》今日报道，Anthropic CEO 达里奥 · 阿莫代伊（Dario"
-    },
-    {
-     "h": "关键细节",
-     "t": "据称，马斯克当时还向他发出了工作邀请，但达里奥最终选择拒绝。"
-    },
-    {
-     "h": "意味着什么",
-     "t": "他认为自己的专业能力更适合计算生物学，"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/348.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-21",
-   "importance": 3,
-   "note": "IT之家 11 月 21 日消息，科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过特殊股权设计， 让包括 CEO 达里奥 · 阿莫代伊（Dario Amodei）在内的 7 位联合创始人共同掌握 50.1% 的股东投票权。 报道指出该安排的核心是特",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司"
-    },
-    {
-     "h": "关键细节",
-     "t": "报道指出该安排的核心是特"
-    }
-   ],
-   "metric": "50.1%"
-  },
-  {
-   "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/346.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-21",
-   "importance": 3,
-   "note": "IT之家 11 月 21 日消息，律师 u/TumbleweedNew6515 昨日（11 月 20 日）在 Reddit 社区发帖，斥资 9,450 美元 （IT之家注：现汇率约合 63,239 元人民币） 使用 12 张二手英伟达 V100 显卡搭建私人 AI 服务器，本地运行 DeepSeek-V4.1-Flas",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": "450 美元"
-  },
-  {
-   "title": "现价近 7000 欧元的英伟达 RTX 5090 FE 显卡送修后被销毁，平台只愿退原价 2369 欧元",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/307.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-21",
-   "importance": 3,
-   "note": "IT之家 11 月 21 日消息，Reddit 用户 @xw1y 昨日发帖称，自己送修的一张 NVIDIA GeForce RTX 5090 Founders Edition 显卡，疑似在欧洲零售商 Proshop 的维修合作方手中被销毁或丢弃。 据该用户披露，这张 RTX 5090 Founders Edition ",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，Reddit 用户 @xw1y 昨日发帖称，自己送修的一张 NVIDIA GeForc"
-    },
-    {
-     "h": "关键细节",
-     "t": "据该用户披露，这张 RTX 5090 Founders Edition"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-   "source": "量子位",
-   "url": "https://www.qbitai.com/2026/11/511582.html",
-   "category": "产品应用",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "已开源Agnes Harness",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": "14倍"
-  },
-  {
-   "title": "当AI影视遇上文化出海：优秀作品亮相第47届美国电影市场",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/industrynews/sFbtCLZ06plyUxPF.html",
-   "category": "融资并购",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "当地时间11月10日至15日，第47届美国电影市场（AFM）在洛杉矶举行。AI影视平台携中国传统文化题材作品亮相展会并达成多项海外合作，为中华文化国际传播探索技术赋能的新实践。 本届展会以“全球影视经济新图景”为主题，聚焦全球影视产业融资、制作、发行领域的新机遇，吸引来自全球超85个国家的数千名制片人、发行商、投资者及",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "当地时间11月10日至15日，第47届美国电影市场（AFM）在洛杉矶举行。"
-    },
-    {
-     "h": "关键细节",
-     "t": "AI影视平台携中国传统文化题材作品亮相展会并达成多项海外合作，为中华文化国际传播探索技术赋能的新实践。"
-    },
-    {
-     "h": "意味着什么",
-     "t": "本届展会以“全球影视经济新图景”为主题，聚焦全球影视产业融资、制作、发行领域的新机遇，吸引来自全球超85个国家的数千名制"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/297.htm",
-   "category": "研究论文",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣称他与 Claude 合作，发现了黎曼猜想及其推广形式广义黎曼猜想（GRH）的证明。 阿尔珀格拥有哈佛大学本科学位和普林斯顿大学数学博士学位，目前在 Anthropic 从事研究",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Leve"
-    },
-    {
-     "h": "关键细节",
-     "t": "阿尔珀格拥有哈佛大学本科学位和普林斯顿大学数学博士学位，目前在 Anthropic 从事研究"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "IT早报 1121：5499 元起华为 OSTA O1 Pro 发布；腾讯因仙逆盗版起诉百度索赔 1 亿元；官方回应零跑 A10 被几箱啤酒压塌后备箱...",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/294.htm",
-   "category": "融资并购",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "“IT早报”时间，大家好，现在是 2026 年 11 月 21 日星期六，今天的重要科技资讯有： 1. 5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布 新机采用 6.39 英寸 1.5K 阔直板屏，搭载麒麟 9030S 处理器与 7000mAh 电池，首发 Harmon",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "“IT早报”时间，大家好，现在是 2026 年 11 月 21 日星期六，今天的重要科技资讯有： 1."
-    },
-    {
-     "h": "关键细节",
-     "t": "5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布 新机采用 6."
-    },
-    {
-     "h": "意味着什么",
-     "t": "5K 阔直板屏，搭载麒麟 9030S 处理器与 7000mAh 电池，首发 Harmon"
-    }
-   ],
-   "metric": "5499 元"
-  },
-  {
-   "title": "匿名 AI 模型 Gestalt 登顶 Contra 前沿设计榜单：性能远超 Claude Fable 5.2、GPT-6.1 Sol，Elo 评分超越人类参考",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/291.htm",
-   "category": "研究论文",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "IT之家 11 月 21 日消息，Contra Labs 于当地时间 11 月 18 日发布 AI 设计能力评测榜单 Frontier Design Benchmark。 其中，一款代号为 Gestalt、目前处于隐身开发状态（Stealth）的匿名 AI 模型成为最大黑马，在专业设计师盲测中以明显优势登顶，超过 An",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，Contra Labs 于当地时间 11 月 18 日发布 AI 设计能力评测榜单 F"
-    },
-    {
-     "h": "关键细节",
-     "t": "其中，一款代号为 Gestalt、目前处于隐身开发状态（Stealth）的匿名 AI 模型成为最大黑马，在专业设计师盲测"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/287.htm",
-   "category": "融资并购",
-   "pubDate": "2026-11-20",
-   "importance": 4,
-   "note": "IT之家 11 月 21 日消息，谷歌搜索产品副总裁罗比 · 斯坦（Robby Stein）昨日（11 月 20 日）在 X 平台发布推文，宣布 Google Search 首页将迎来新一轮调整， 面向全球桌面端逐步推出可折叠侧边栏，让用户直接从首页查找和继续此前的 AI 搜索对话。 根据演示，用户点击页面左侧的灰色条",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 21 日消息，谷歌搜索产品副总裁罗比 · 斯坦（Robby Stein）昨日（11 月 20 日）在"
-    },
-    {
-     "h": "关键细节",
-     "t": "根据演示，用户点击页面左侧的灰色条"
-    }
-   ],
-   "metric": ""
-  },
-  {
    "title": "开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用",
    "source": "IT之家",
    "url": "https://www.ithome.com/1/030/228.htm",
@@ -934,19 +938,6 @@
    "scene": "研发编程",
    "flow": [],
    "metric": ""
-  },
-  {
-   "title": "靠机器人缓解成本压力，通用汽车计划到 2028 年将北美工厂自动化规模提升 20%",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/028/561.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-17",
-   "importance": 3,
-   "note": "IT之家 11 月 17 日消息，据路透社今天（17 日）援引两名知情人士消息称，面对劳动力成本上涨及制造业回流美国带来的成本压力，通用汽车计划到 2028 年， 将北美工厂的机器人及其他自动化技术应用规模提高 20% 。 多名消息人士称，通用汽车 同时也在自主研发机器人 ，并在印第安纳州科科莫工厂进行组装，重点开发用",
-   "kind": "case",
-   "scene": "研发编程",
-   "flow": [],
-   "metric": "20%"
   },
   {
    "title": "Chrome 团队工程师的 4 个自查问题：别让它替你做了决定你还不知道",
