@@ -1,8 +1,195 @@
 {
- "batch": "2026-11-23 16:54",
+ "batch": "2026-11-24 05:13",
  "count": 59,
  "source": "github-actions",
  "items": [
+  {
+   "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/512195.html",
+   "category": "大模型",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "零Token成本，断网也能自由Vibe Coding",
+   "kind": "case",
+   "scene": "办公提效",
+   "flow": [],
+   "metric": "1450亿"
+  },
+  {
+   "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/512017.html",
+   "category": "大模型",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "阿福大升级：让模型像医生一样思考",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/511998.html",
+   "category": "融资并购",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "当大模型接上真实机器人：RoboChallenge Zero首期评测发布",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/511978.html",
+   "category": "研究论文",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "RoboChallenge正式发布全新评测基准RoboChallenge Zero",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "杉数完成数亿元D轮融资：十年“冷门创业”，走到AI产业的关键处",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214351.html",
+   "category": "融资并购",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "从数学优化算法到GPU加速，再到AI原生求解器，杉数十年的技术积累有了新的时代坐标。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/228.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "IT之家 11 月 23 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布 ，叠加国补后 4999 元起。华为星芒品牌总经理刘赫也已开通微博，持续解答网友疑惑。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 IT之家注意到，面对",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 23 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 "
+    },
+    {
+     "h": "关键细节",
+     "t": "华为星芒品牌总经理刘赫也已开通微博，持续解答网友疑惑。"
+    },
+    {
+     "h": "意味着什么",
+     "t": "▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 IT之家注意到，面对"
+    }
+   ],
+   "metric": "4999 元"
+  },
+  {
+   "title": "华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/219.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "IT之家 11 月 23 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布 ，叠加国补后 4999 元起。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 IT之家注意到，华为官网最新显示， 星芒 OSTA O1 Pro 支持 e",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 23 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 "
+    },
+    {
+     "h": "关键细节",
+     "t": "▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 IT之家注意到，华为官网最新显示， 星芒 OST"
+    }
+   ],
+   "metric": "4999 元"
+  },
+  {
+   "title": "小鹏图灵世界模型 X-World 完成重要升级，推出构建虚拟城市能力等",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/212.htm",
+   "category": "大模型",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "IT之家 11 月 23 日消息，小鹏汽车官方今日宣布，近日，X-World 基于小鹏第二代 VLA 研发现实需求，迎来首次重要升级。新一代 X-World 1.6 包含两大重要升级： 其一， 推出构建虚拟城市（Virtual City）的能力 ：让环境仿真深植现实场景，提升环境复现与环境增强能力。模型可在云端构建具备",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 23 日消息，小鹏汽车官方今日宣布，近日，X-World 基于小鹏第二代 VLA 研发现实需求，迎来"
+    },
+    {
+     "h": "关键细节",
+     "t": "新一代 X-World 1."
+    },
+    {
+     "h": "意味着什么",
+     "t": "6 包含两大重要升级： 其一， 推出构建虚拟城市（Virtual City）的能力 ：让环境仿真深植现实场景，提升环境复"
+    }
+   ],
+   "metric": ""
+  },
+  {
+   "title": "华为 × 澳门电讯联合发布 Wi-Fi 感知服务，支持动态感知并识别家庭成员活动状态",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/196.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "IT之家 11 月 23 日消息，据华为光网今日分享，澳门电讯（CTM）携手华为联合发布“AI-FTTR”宽带服务，并基于华为 FTTR 全光组网解决方案的智能计算能力，融合 AI Wi-Fi 感知及 AI Wi-Fi 抗干扰两大核心技术，推出 Wi-Fi 感知服务商用套餐。 ▲ 图源：华为光网 | 澳门电讯与华为联合",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 23 日消息，据华为光网今日分享，澳门电讯（CTM）携手华为联合发布“AI-FTTR”宽带服务，并基"
+    },
+    {
+     "h": "关键细节",
+     "t": "▲ 图源：华为光网 | 澳门电讯与华为联合"
+    }
+   ],
+   "metric": ""
+  },
+  {
+   "title": "懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/091.htm",
+   "category": "融资并购",
+   "pubDate": "2026-11-23",
+   "importance": 4,
+   "note": "IT之家 11 月 23 日消息，今日，有博主爆料称，懂车帝内部对公开测试发布了四项要求，包括不再开放对比类内容、想要发布公开测试类内容的账号必须有资质等。 据界面新闻报道，懂车帝内容运营人员表示，此轮变化系平台严格按照《网络测评活动规范》要求，对汽车创作者在平台发布部分场景内容的规则更新。 网传“内容大调整”“行业受",
+   "kind": "news",
+   "scene": "",
+   "flow": [
+    {
+     "h": "发生了什么",
+     "t": "IT之家 11 月 23 日消息，今日，有博主爆料称，懂车帝内部对公开测试发布了四项要求，包括不再开放对比类内容、想要发"
+    },
+    {
+     "h": "关键细节",
+     "t": "据界面新闻报道，懂车帝内容运营人员表示，此轮变化系平台严格按照《网络测评活动规范》要求，对汽车创作者在平台发布部分场景内"
+    },
+    {
+     "h": "意味着什么",
+     "t": "网传“内容大调整”“行业受"
+    }
+   ],
+   "metric": ""
+  },
   {
    "title": "首届AI音乐视觉黑客松：从一句话到一块大屏，剪映 Hub 让 AI 视觉进入音乐现场",
    "source": "雷锋网",
@@ -327,390 +514,309 @@
    "metric": ""
   },
   {
-   "title": "加州起诉 OpenAI：说起来你可能不信，是模型先动的手",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html",
+   "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/512179.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+   "kind": "case",
+   "scene": "内容创作",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/512004.html",
+   "category": "研究论文",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "一个完全由AI组成的科学家社会，是什么样？",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/511989.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/511933.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "豆包工作是目前字节优先级最高的产品",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/11/511921.html",
    "category": "大模型",
    "pubDate": "2026-11-23",
    "importance": 3,
-   "note": "长任务、子 Agent 委派与共享服务凭证，让传统安全架构面临权限失控风险。 作者丨 郑佳美 编辑丨岑 峰 说起来你可能不信，这次真的是模型先动的手。 当地时间 11 月 16 日，加州总检察长 Rob Bonta 一纸诉状把 OpenAI 告上了法庭。起诉书里最值得注意的一句指控是：OpenAI 的智能体（Agent",
+   "note": "还透露了不少训练背后的秘诀",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "独家解读丨苦战三个月，AI办公经得起财报检验吗？",
+   "source": "雷锋网",
+   "url": "https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "AI办公，正在进入财报检验期。 过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了WorkBuddy更多商业化进展， 包括Token消耗、企业客户采用情况，以及相关收入增长数据。 二级市场有人买账，认为“WorkBuddy进展不错”，但也有人泼冷水，“还是得看带来多少收益”。 而阿里最新",
    "kind": "news",
    "scene": "",
    "flow": [
     {
      "h": "发生了什么",
-     "t": "长任务、子 Agent 委派与共享服务凭证，让传统安全架构面临权限失控风险。"
+     "t": "AI办公，正在进入财报检验期。"
     },
     {
      "h": "关键细节",
-     "t": "作者丨 郑佳美 编辑丨岑 峰 说起来你可能不信，这次真的是模型先动的手。"
+     "t": "过去一个季度，大厂集中火力攻克这门AI应用生意。"
     },
     {
      "h": "意味着什么",
-     "t": "当地时间 11 月 16 日，加州总检察长 Rob Bonta 一纸诉状把 OpenAI 告上了法庭。"
+     "t": "腾讯在Q3财报及业绩电话会中披露了WorkBuddy更多商业化进展， 包括Token消耗、企业客户采用情况，以及相关收入"
     }
    ],
    "metric": ""
   },
   {
-   "title": "蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/industrynews/VK4viDe2WQp64rON.html",
+   "title": "800万对1000万，腾讯字节又在AI办公杠上了",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214502.html",
    "category": "产品应用",
    "pubDate": "2026-11-23",
    "importance": 3,
-   "note": "11月22-23日，2026蚂蚁阿福医疗健康生态大会在广州举行。蚂蚁集团首席执行官韩歆毅在主论坛发言中表示，AI正在拓宽人类健康自塑的边界，让健康管理从“千人一方”走向“一人一方”、从“以治病为中心”转向“以健康为中心”，这是AI对医疗健康领域最深远的影响之一，其价值不亚于AI医疗和AI药物研发。他认为，AI与健康的深",
+   "note": "不是产品的胜负，而是存量生态的比拼",
    "kind": "news",
    "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "11月22-23日，2026蚂蚁阿福医疗健康生态大会在广州举行。"
-    },
-    {
-     "h": "关键细节",
-     "t": "蚂蚁集团首席执行官韩歆毅在主论坛发言中表示，AI正在拓宽人类健康自塑的边界，让健康管理从“千人一方”走向“一人一方”、从"
-    }
-   ],
-   "metric": "1.5亿"
+   "flow": [],
+   "metric": "800万"
   },
   {
-   "title": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html",
+   "title": "禾赛的第二增长曲线，瞄准的不仅仅是机器人",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214576.html",
    "category": "产品应用",
    "pubDate": "2026-11-23",
    "importance": 3,
-   "note": "央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据 APEC 期间，PHAIN 梵因动力自主研发的 G03 Pro T 数据手套亮相央视新闻《聊会儿APEC》。公司首席科学家 Peter Bradley Shull（肖培德）博士参与节目，佩戴 G03 Pro T 进行机器人遥操作演示，介绍利用手套采集操作数据、",
+   "note": "Kosmo 的商业化空间，不可小觑。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "当AI开始自己上班",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214386.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "商业化推倒的第一块多米诺骨牌",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "当AI接管网购，年轻人迷上外包砍价",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214748.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "未来的购物入口藏在对话框里",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "新鲜感之后，陪伴机器人如何被用起来？",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8212446.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。",
+   "kind": "case",
+   "scene": "生活服务",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "蚂蚁靠金融补贴、京东靠卖药兜底：大厂绕开医保的医疗AI试验",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214407.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "大厂把医生AI工具价格打到零，但3万亿医保只为院内降本买单",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": "3万"
+  },
+  {
+   "title": "豆包工作、千问办公、WorkBuddy，怎么越长越像了？",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214460.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "大厂办公Agent贴身肉搏。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "机器人公司老板当自媒体，图什么？",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214356.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "机器人圈的老板们做自媒体，本身就是创业的一部分。",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "AI不懂情绪，但跑出了七种新生意",
+   "source": "钛媒体",
+   "url": "https://www.tmtpost.com/8214426.html",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "不卖效率，卖情绪",
+   "kind": "news",
+   "scene": "",
+   "flow": [],
+   "metric": ""
+  },
+  {
+   "title": "《生化危机》之父三上真司：希望 AI 彻底消失",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/204.htm",
+   "category": "产品应用",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "IT之家 11 月 23 日消息，今年 3 月底，《生化危机》和《恐龙危机》系列导演三上真司（Shinji Mikami）正式宣布，其创立的游戏工作室 Unbound 已与《剑星》开发商 Shift Up 达成合作，将共同发行他的下一款游戏。11 月 20 日，三上真司与 Shift Up 首席执行官金亨泰（Kim H",
    "kind": "news",
    "scene": "",
    "flow": [
     {
      "h": "发生了什么",
-     "t": "央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据 APEC 期间，PHAIN 梵因动力自主研发的 G03 Pr"
+     "t": "IT之家 11 月 23 日消息，今年 3 月底，《生化危机》和《恐龙危机》系列导演三上真司（Shinji Mikami"
     },
     {
      "h": "关键细节",
-     "t": "公司首席科学家 Peter Bradley Shull（肖培德）博士参与节目，佩戴 G03 Pro T 进行机器人遥操作"
+     "t": "11 月 20 日，三上真司与 Shift Up 首席执行官金亨泰（Kim H"
     }
    ],
    "metric": ""
   },
   {
-   "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
+   "title": "儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/203.htm",
    "category": "产品应用",
    "pubDate": "2026-11-23",
    "importance": 3,
-   "note": "近日，阿里云伶鹊与中通快递达成深度合作，为中通快递打造企业级AI客服，在小件末端配送场景中落地智能语音热线和智能语音外呼两大能力。上线后“呼入+外呼”日均服务量达数十万通，AI“呼入”热线带来的下单转化率提升近20%。 （AI客服产品示意图） 在“呼入”场景下，用户拨通中通快递客服热线后，伶鹊可以听懂“我要改地址”、“",
+   "note": "IT之家 11 月 23 日消息，由 155 家儿童权益保护组织组成的联盟近日向亚马逊和 eBay 首席执行官发出公开信，呼吁两家电商平台停止销售搭载人工智能技术的玩具。联盟指出，这类产品价格低廉、购买门槛低，却缺乏充分的安全测试，可能给儿童带来多方面的风险。 公开信列举了 AI 玩具存在的诸多问题，包括生成色情内容、",
    "kind": "news",
    "scene": "",
    "flow": [
     {
      "h": "发生了什么",
-     "t": "近日，阿里云伶鹊与中通快递达成深度合作，为中通快递打造企业级AI客服，在小件末端配送场景中落地智能语音热线和智能语音外呼"
+     "t": "IT之家 11 月 23 日消息，由 155 家儿童权益保护组织组成的联盟近日向亚马逊和 eBay 首席执行官发出公开信"
     },
     {
      "h": "关键细节",
-     "t": "上线后“呼入+外呼”日均服务量达数十万通，AI“呼入”热线带来的下单转化率提升近20%。"
+     "t": "联盟指出，这类产品价格低廉、购买门槛低，却缺乏充分的安全测试，可能给儿童带来多方面的风险。"
     },
     {
      "h": "意味着什么",
-     "t": "（AI客服产品示意图） 在“呼入”场景下，用户拨通中通快递客服热线后，伶鹊可以听懂“我要改地址”、“"
+     "t": "公开信列举了 AI 玩具存在的诸多问题，包括生成色情内容、"
     }
    ],
-   "metric": "20%"
+   "metric": "155 家"
   },
   {
-   "title": "现金流不会说谎：AI 把中国科技巨头逼进了同一场考试",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8211898.html",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "AI重资产投入正改写中国科技巨头的现金流格局。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "推理时代，AI服务器的Token成本到底该怎么算？",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8214594.html",
-   "category": "大模型",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "推理时代的AI服务器竞争，已经不是某一颗芯片、某一项规格的竞争，而是从芯片到散热，从调度到运维的系统级成本控制能力的竞争。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "辰星技术：营收扩张难掩亏损，多款机器人曾亏本销售",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8209841.html",
-   "category": "融资并购",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "报告期内公司仅在2025年依靠大额政府补助实现短暂账面盈利，其余时段均为亏损；剔除股改因素影响后，这家成立十余载的企业经营层面累计亏损接近2.2亿元。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": "2.2亿"
-  },
-  {
-   "title": "迅合科技：在Excel和微信群里，给老板造一个Personal Agent",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8209450.html",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "老板对决策的要求比普通人更高，对知识库和决策质量的要求也更高，过去这样的需求长期存在但没有得到很好解决。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "硅基员工元年，投入要向组织与流程倾斜丨ToB产业观察",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8214320.html",
+   "title": "Docker 徽标焕新，致力于打造面向智能体的安全容器化环境",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/1/031/194.htm",
    "category": "政策监管",
    "pubDate": "2026-11-23",
    "importance": 3,
-   "note": "AI进入企业的第一课，不是学会干活，而是学会按企业和当地法规的要求干活。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "这届大学生，狂卷黑客松",
-   "source": "钛媒体",
-   "url": "https://www.tmtpost.com/8214092.html",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "还没毕业，大学生已经忙着搞AI项目了。",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "日本工业机器人制造商安川电机：AI 人形机器人将在 2030 年正式推出",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/954.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，日本工业机器人制造商安川电机 (YASAKAWA) 人工智能机器人统括部长久保田由美惠当地时间本月 20 日接受日本共同社采访时表示， 该企业计划在人形机器人领域追赶当前领先的美中企业 。 久保田由美惠称， 安川电机正在开发中的 AI 人形机器人将在 2030 年正式推出 ，具体投放时",
+   "note": "IT之家 11 月 23 日消息，知名容器化工具 Docker 官方当地时间本月 19 日宣布更新徽标。 新版的 Moby 鲸鱼更为抽象简洁 ， 且以黑色为身体基调 。 Docker 官方在其配套博客中表示，新徽标下的 Docker 专为信任而生， 致力于打造面向智能体时代的容器化环境 ，让安全、隔离、治理的容器成为智",
    "kind": "news",
    "scene": "",
    "flow": [
     {
      "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，日本工业机器人制造商安川电机 (YASAKAWA) 人工智能机器人统括部长久保田由美惠"
+     "t": "IT之家 11 月 23 日消息，知名容器化工具 Docker 官方当地时间本月 19 日宣布更新徽标。"
     },
     {
      "h": "关键细节",
-     "t": "久保田由美惠称， 安川电机正在开发中的 AI 人形机器人将在 2030 年正式推出 ，具体投放时"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "LG U+ 围绕 AI 调整企业业务架构，新设基础设施 / 平台部门",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/938.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，据韩媒 The Elec 报道，LG U+ 正围绕人工智能（AI）基础设施和平台业务调整企业业务架构，计划将相关业务划分为 AI 基础设施部门和 AI 平台部门，分别负责 AI 数据中心及有线、无线通信网络，以及 AI 客户联络中心和智能体服务。 在企业事业部门下，公司将新设 AI 基",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，据韩媒 The Elec 报道，LG U+ 正围绕人工智能（AI）基础设施和平台业务调"
-    },
-    {
-     "h": "关键细节",
-     "t": "在企业事业部门下，公司将新设 AI 基"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "黑客利用 AI 工具发现医疗软件零日漏洞，成功控制目标服务器",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/917.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，网络犯罪分子近日利用一款名为 Cairn 的自主人工智能（AI）平台，在一款医学影像应用程序中发现零日漏洞，并利用该漏洞发起攻击，最终成功控制目标服务器。 零日漏洞是指硬件、软件或固件中存在的安全缺陷，软件供应商尚未发现这一问题，因此也没有可用的修复程序或安全补丁。Cairn 则是一款",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，网络犯罪分子近日利用一款名为 Cairn 的自主人工智能（AI）平台，在一款医学影像应"
-    },
-    {
-     "h": "关键细节",
-     "t": "零日漏洞是指硬件、软件或固件中存在的安全缺陷，软件供应商尚未发现这一问题，因此也没有可用的修复程序或安全补丁。"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "新款深蓝 L07 车型将于 11 月 27 日广州车展亮相：采用 800V 高压平台、搭载豆包大模型",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/911.htm",
-   "category": "大模型",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，深蓝汽车宣布旗下新款 L07 车型将于 11 月 27 日开幕的 2026 广州车展上亮相。 据介绍，新款深蓝 L07 采用 800V 高压平台，全系标配激光雷达，其智能辅助驾驶能力可覆盖通勤、高速、泊车等高频出行场景；搭载端到端开放域豆包大模型，支持车内外语音交互。 作为参考，去年上",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，深蓝汽车宣布旗下新款 L07 车型将于 11 月 27 日开幕的 2026 广州车展上"
-    },
-    {
-     "h": "关键细节",
-     "t": "据介绍，新款深蓝 L07 采用 800V 高压平台，全系标配激光雷达，其智能辅助驾驶能力可覆盖通勤、高速、泊车等高频出行"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "法国人工智能企业 Mistral AI 在新加坡设立亚太总部，为政府开发定制 AI 模型",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/904.htm",
-   "category": "大模型",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，法国人工智能企业 Mistral AI 上周（11 月 20 日）宣布在新加坡设立亚太地区总部， 计划 2027 年将该区域员工数增加至 200 人以上 。 Mistral AI 表示，新加坡办公室将作为扩展科学中心运营， 负责为政府机构、工业客户开发定制 AI 模型 。该企业计划在新",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，法国人工智能企业 Mistral AI 上周（11 月 20 日）宣布在新加坡设立亚太"
-    },
-    {
-     "h": "关键细节",
-     "t": "Mistral AI 表示，新加坡办公室将作为扩展科学中心运营， 负责为政府机构、工业客户开发定制 AI 模型 。"
-    }
-   ],
-   "metric": "200 人"
-  },
-  {
-   "title": "我国研发的地球系统智能科研平台“ZHU·GE”推出",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/899.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-23",
-   "importance": 3,
-   "note": "IT之家 11 月 23 日消息，据中国气象报社报道，11 月 23 日，在 2026 雄安气象人工智能国际研讨会上， 地球系统智能科研平台“ZHU·GE”正式推出 。 “ZHU·GE”取自英文 Zone-to-global Holistic Understanding by Generative Earth-syst",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，据中国气象报社报道，11 月 23 日，在 2026 雄安气象人工智能国际研讨会上， "
-    },
-    {
-     "h": "关键细节",
-     "t": "“ZHU·GE”取自英文 Zone-to-global Holistic Understanding by Genera"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "苹果 Siri AI 集体诉讼案和解：符合条件的 iPhone 预计每台可获赔至少 61 美元",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/729.htm",
-   "category": "融资并购",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 23 日消息，苹果今年 5 月同意支付 2.5 亿美元 （IT之家注：现汇率约合 16.73 亿元人民币） ，以和解一起涉及 Siri AI 功能延迟上线的美国集体诉讼。 根据 MacRumors 当地时间 11 月 21 日的报道，代表消费者的律师于 11 月 16 日提交法庭文件，预计符合条件的",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，苹果今年 5 月同意支付 2."
-    },
-    {
-     "h": "关键细节",
-     "t": "5 亿美元 （IT之家注：现汇率约合 16."
+     "t": "新版的 Moby 鲸鱼更为抽象简洁 ， 且以黑色为身体基调 。"
     },
     {
      "h": "意味着什么",
-     "t": "73 亿元人民币） ，以和解一起涉及 Siri AI 功能延迟上线的美国集体诉讼。"
-    }
-   ],
-   "metric": "61 美元"
-  },
-  {
-   "title": "IT早报 1123：菲尔兹奖得主谈“AI 攻克黎曼猜想”仍需解决关键思路；特斯拉新功能堪比 GTA6；张雪机车计划明年推外卖电摩；国漫斗破苍穹九年长篇完结...",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/725.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "“IT早报”时间，大家好，现在是 2026 年 11 月 23 日星期一，今天的重要科技资讯有： 1. 菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可 Lean 与 Mathlib 社区发布联合声明，以 Lean 库形式给出的黎曼猜想证明已经通过核验，该证明的代码约 1700 ",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "“IT早报”时间，大家好，现在是 2026 年 11 月 23 日星期一，今天的重要科技资讯有： 1."
-    },
-    {
-     "h": "关键细节",
-     "t": "菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可 Lean 与 Mathlib "
+     "t": "Docker 官方在其配套博客中表示，新徽标下的 Docker 专为信任而生， 致力于打造面向智能体时代的容器化环境 ，"
     }
    ],
    "metric": ""
   },
   {
-   "title": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限",
+   "title": "马斯克：星巴克咖啡师也能建 AI 数据中心，SpaceX 培训几天就能上岗",
    "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/720.htm",
-   "category": "政策监管",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛。 他认为，传统 AI 能",
-   "kind": "news",
-   "scene": "",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/719.htm",
+   "url": "https://www.ithome.com/1/031/190.htm",
    "category": "产品应用",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨晚发布了最新一期 Power On 新闻通讯，分析了苹果在 AI Agent 竞争中的处境，并披露了苹果 2027 年上半年的部分新品计划。 IT之家此前报道，苹果正在招聘负责 Agentic AI 项目的高级工程管理人员，招聘描述涉及跨应用操作、网页浏览、",
+   "pubDate": "2026-11-23",
+   "importance": 3,
+   "note": "IT之家 11 月 23 日消息，SpaceX 首席执行官埃隆 · 马斯克（Elon Musk）表示，公司最优秀的数据中心建设人员，可能曾经是咖啡师，也可能只是零售商店里的货架理货员。 本周早些时候，马斯克通过远程连线方式参加了在美国奥斯汀举行的 TomorrowX 峰会。他在会上表示：“我们有些最优秀的员工此前从未参",
    "kind": "news",
    "scene": "",
    "flow": [
     {
      "h": "发生了什么",
-     "t": "IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨晚发布了最新一期 Power On 新闻通讯，分析了苹果在"
+     "t": "IT之家 11 月 23 日消息，SpaceX 首席执行官埃隆 · 马斯克（Elon Musk）表示，公司最优秀的数据中"
     },
     {
      "h": "关键细节",
-     "t": "IT之家此前报道，苹果正在招聘负责 Agentic AI 项目的高级工程管理人员，招聘描述涉及跨应用操作、网页浏览、"
+     "t": "本周早些时候，马斯克通过远程连线方式参加了在美国奥斯汀举行的 TomorrowX 峰会。"
+    },
+    {
+     "h": "意味着什么",
+     "t": "他在会上表示：“我们有些最优秀的员工此前从未参"
     }
    ],
    "metric": ""
@@ -727,142 +833,6 @@
    "scene": "办公提效",
    "flow": [],
    "metric": "31家"
-  },
-  {
-   "title": "MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/711.htm",
-   "category": "研究论文",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部模型对现代密码方案开展了系统性的自动化密码分析。 在测试中，模型发掘出了多处此前未知的算法构造缺陷， 并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行破解 。 IT之家获悉，相关进",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部"
-    },
-    {
-     "h": "关键细节",
-     "t": "在测试中，模型发掘出了多处此前未知的算法构造缺陷， 并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/702.htm",
-   "category": "政策监管",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘等形象作为头像，在评论区广泛活跃。 对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？》治理意见征询，面向用户征集对 ",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵"
-    },
-    {
-     "h": "关键细节",
-     "t": "对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？"
-    },
-    {
-     "h": "意味着什么",
-     "t": "》治理意见征询，面向用户征集对"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/677.htm",
-   "category": "大模型",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣布，自己与 AI 模型 Claude 合作，攻克了数学界最著名的难题之一 —— 黎曼猜想。 据IT之家此前报道，11 月 21 日，Lean 与 Mathlib 社区发布联合声明",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Leve"
-    },
-    {
-     "h": "关键细节",
-     "t": "据IT之家此前报道，11 月 21 日，Lean 与 Mathlib 社区发布联合声明"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "马斯克预警：AI 行业明年可能面临严重资金短缺，或需要数千亿美元额外投入",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/628.htm",
-   "category": "融资并购",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，深度学习领域开源项目 Keras 创始人弗朗索瓦・肖莱（François Chollet）在 X 上发文称，要么你认为 AI 基础设施建设已经结束，AI 只是一场昙花一现的泡沫，且算力需求已经见顶；要么，这就是一次难得的买入机会。 弗朗索瓦称，GPU 现货价格仍在上涨，产能难以保障，H",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，深度学习领域开源项目 Keras 创始人弗朗索瓦・肖莱（François Cholle"
-    },
-    {
-     "h": "关键细节",
-     "t": "弗朗索瓦称，GPU 现货价格仍在上涨，产能难以保障，H"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "华为星芒 OSTA O1 Pro 新机星闪 E2.0 规格确认，支持电竞专链、精确查找等功能",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/600.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，在 20 日下午发布的首款为 AI 而生的鸿蒙手机 —— 星芒 OSTA O1 Pro ， 华为官网确认其支持星闪 E2.0 技术 。 此外，华为官网星闪功能支持设备清单还揭示了 OSTA O1 Pro 的具体功能支持情况： OSTA O1 Pro 星闪功能支持一览 产品型号 星闪 星",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，在 20 日下午发布的首款为 AI 而生的鸿蒙手机 —— 星芒 OSTA O1 Pro"
-    },
-    {
-     "h": "关键细节",
-     "t": "此外，华为官网星闪功能支持设备清单还揭示了 OSTA O1 Pro 的具体功能支持情况： OSTA O1 Pro 星闪功"
-    }
-   ],
-   "metric": ""
-  },
-  {
-   "title": "柏林艺术中心举办军事 AI 系统发布会引乐迷抗议，场地负责人致歉",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/030/590.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-22",
-   "importance": 4,
-   "note": "IT之家 11 月 22 日消息，据《卫报》今天报道，德国军工初创企业 Helsing 近期在柏林艺术中心 Kraftwerk Berlin 举办 AI 目标识别系统 Clarity 发布活动，引发当地乐迷、电音社区强烈抗议。 据报道，Kraftwerk Berlin 是一座位于柏林的巨型后工业艺术与音乐文化空间，以粗",
-   "kind": "news",
-   "scene": "",
-   "flow": [
-    {
-     "h": "发生了什么",
-     "t": "IT之家 11 月 22 日消息，据《卫报》今天报道，德国军工初创企业 Helsing 近期在柏林艺术中心 Kraftw"
-    },
-    {
-     "h": "关键细节",
-     "t": "据报道，Kraftwerk Berlin 是一座位于柏林的巨型后工业艺术与音乐文化空间，以粗"
-    }
-   ],
-   "metric": ""
   },
   {
    "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落",
@@ -950,45 +920,6 @@
    "pubDate": "2026-11-19",
    "importance": 3,
    "note": "IT之家 11 月 19 日消息，多名用户、安全研究员最近发现，Meta 旗下 Muse 智能体可能会泄露隐私。 例如，科技领域记者 Jason Aten 曾在 9 月发现，尽管自己明确拒绝了授权，他电脑里的 Muse 仍然访问了 iMessage。安全研究员 Patrick Wardle 则发现 Muse 存在零日漏",
-   "kind": "case",
-   "scene": "办公提效",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "AI 智能体擅自转账、购物谁来负责？多家银行警告用户损失可能要自己承担",
-   "source": "IT之家",
-   "url": "https://www.ithome.com/1/029/646.htm",
-   "category": "产品应用",
-   "pubDate": "2026-11-19",
-   "importance": 3,
-   "note": "IT之家 11 月 19 日消息，如果你的 AI 智能体做出了一笔糟糕的财务决策，最终可能只能由你自己承担损失。 这是近期多家大型银行向客户发出的警告。根据 Business Insider 查看的银行邮件和应用通知，银行实际上是在提醒用户：如果 AI 智能体获得了访问金融账户的权限，其执行的操作可能被视为用户本人的行",
-   "kind": "case",
-   "scene": "办公提效",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "做了20多年消费硬件，奥尼电子为什么去做Token工厂？",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/chips/DNqOGFbDk2Vd5eiX.html",
-   "category": "大模型",
-   "pubDate": "2026-11-18",
-   "importance": 3,
-   "note": "“这个有什么用？怎么用起来？” 一家有超20年制造经验的企业，进入AI推理算力市场后，被客户的这个问题问住了。 这两年，AI算力市场热闹得很。有人建设算力集群，有人销售服务器，也有人提供算力服务。可到了实际使用环节，一些企业却发现，设备买回来了，应用没找到，业务也接不进去。 IDC与中国信通院2026年的联合调研显示，",
-   "kind": "case",
-   "scene": "办公提效",
-   "flow": [],
-   "metric": ""
-  },
-  {
-   "title": "海外算力通道收窄！众智 FlagOS × 清昴智能，助力国芯高性能上线商用 Token 工厂",
-   "source": "雷锋网",
-   "url": "https://www.leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html",
-   "category": "政策监管",
-   "pubDate": "2026-11-18",
-   "importance": 3,
-   "note": "11 月 16 日，美国商务部工业与安全局（BIS）最新出口管制政策正式落地，将限制范围从芯片实物进一步延伸至远程算力访问，旨在封堵中国企业通过海外数据中心获取先进 AI 算力的路径。 这一外部变量正在迅速传导至国内算力供给侧。对于正在兴起的“国芯 Token 工厂”而言，海外算力通道的收窄在需求侧倒逼本土算力加快承接",
    "kind": "case",
    "scene": "办公提效",
    "flow": [],
